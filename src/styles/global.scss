@@ -1,0 +1,54 @@
+:root {
+  --gray-200: #DBDCDD;
+  --gray-300: #CECECE;
+  --gray-500: #A8A8B3;
+  --gray-600: #737380;
+  --gray-700: #7E7E86;
+
+  --white-100: #FEFEFE;
+  --white-200: #F8F8F8;
+
+  --pink-50: #D67EE2;
+  --pink-100: #E559F9;
+
+  --purple-50: #835AFD;
+  --purple-200: #6F4BD8;  
+
+  --red-100: #E73F5D;
+  --red-200: #D73754;
+
+  --black: #29292E;
+  --shadow: #050206;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  @media (max-width: 1080px) {
+    font-size: 93.75%;
+  }
+  @media (max-width: 720px) {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: var(--background);
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+  font: 400 1rem 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-weight: 600;
+}
+
+button {
+  cursor: pointer;
+}
